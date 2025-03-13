@@ -1,9 +1,3 @@
-class Vehículo_de_Carga:
-    def __init__(self,numerodeVehiculo,Tipo (Camioneta, Torton, Tráiler, Otro), Placas, Capacidad Máxima Bruta (CapMax), 
-Peso del producto (net), Peso Tara (tara)):
-        self.
-
-
 #declaramos una variable para que este fija para el while
 z=True
 x=True
