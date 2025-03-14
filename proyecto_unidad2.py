@@ -124,7 +124,7 @@ while(z):
                 print(d,"no esta tal cual en el menú favor de rectificar y escribirlo de una manera que lo entienda")
                 x=True
 
-    elif a=="salír":
+    elif a=="salir":
         print("muchas gracias por el tiempo\n")
         z=False
 

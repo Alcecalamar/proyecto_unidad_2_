@@ -1,4 +1,3 @@
-class
 class VehiculoDeCarga:
     def __init__(self,numero_de_vehiculo=0,tipo="", placas="",capmax=0.0, peso_del_producto=0.0, peso_tara=0.0):
         self.__numero_de_vehiculo=numero_de_vehiculo
@@ -31,10 +30,22 @@ class VehiculoDeCarga:
         return self.__peso_tara
     def set_peso_tara(self,peso_tara):
         self.__peso_tara=peso_tara
-    def __str__(self):
-        return f"Vehiculo tiene:\n{self.get_numero_de_vehiculo()}"+ \
-        f"\n{self.get_tipo()}\n{self.get_placas()}\n{self.get_capmax()}"+ \
-        f"\n{self.get_peso_del_producto()}\n{self.get_peso_tara()}"
+    def __str__(self): 
+        return f"Vehiculo tiene:\nnumero de vehiculo:{self.get_numero_de_vehiculo()},\
+        \ntipo={self.get_tipo()},\
+        \nplacas={self.get_placas()},\
+        \ncapmax={self.get_capmax()}, \
+        \npeso_del_producto=´{self.get_peso_del_producto()}, \
+        \npeso_tara={self.get_peso_tara()})" 
+     
+    def __repr__(self): 
+        return f"VehiculoDeCarga (numero_de_vehiculo={self.get_numero_de_vehiculo()}, \
+        \ntipo={self.get_tipo()}, \
+        \nplacas={self.get_placas()}, \
+        \ncapmax={self.get_capmax()}, \
+        \npeso_del_producto=´{self.get_peso_del_producto()}, \
+        \npeso_tara={self.get_peso_tara()})" 
+ 
 
 
 
