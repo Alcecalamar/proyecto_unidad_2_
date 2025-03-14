@@ -159,3 +159,5 @@ while(z):
         print("No se puede realizar esta acción por que los objetos aún no han sido instanciados. ")
     except ValueError:
         print("No se puede realizar esta acción por que el valor es incorrecto. ")
+    except Exception as err:
+        print("Ocurrió la excepción de: " + str(err))
