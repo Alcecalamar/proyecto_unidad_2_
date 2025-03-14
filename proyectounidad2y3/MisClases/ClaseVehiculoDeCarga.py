@@ -31,12 +31,12 @@ class VehiculoDeCarga:
     def set_peso_tara(self,peso_tara):
         self.__peso_tara=peso_tara
     def __str__(self): 
-        return f"Vehiculo tiene:\nnumero de vehiculo:{self.get_numero_de_vehiculo()},\
-        \ntipo={self.get_tipo()},\
-        \nplacas={self.get_placas()},\
-        \ncapmax={self.get_capmax()}, \
-        \npeso_del_producto=´{self.get_peso_del_producto()}, \
-        \npeso_tara={self.get_peso_tara()})" 
+        return f"Vehiculo tiene:\nNúmero de vehículo:{self.get_numero_de_vehiculo()},\
+        \nTipo:{self.get_tipo()},\
+        \nPlacas:{self.get_placas()},\
+        \nCapacidad Máxima Bruta:{self.get_capmax()}, \
+        \nPeso Neto(net):{self.get_peso_del_producto()}, \
+        \nPeso Tara(tara):{self.get_peso_tara()})" 
      
     def __repr__(self): 
         return f"VehiculoDeCarga (numero_de_vehiculo={self.get_numero_de_vehiculo()}, \
